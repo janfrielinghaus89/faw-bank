@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", monospace;
+  }
+
+  h1 {
+    color: #000;
+    text-align: center;
+  }
+
+  body {background-color: #c7d8e0;}
+
+  h2 {
+    color:#000;
+    text-align: center;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    color: #000;
+  }
+
+  .col-3 {
+    background-color: #eeeeee;
+    border: solid #61b1d6 2px;
+    border-right: solid #123b4e 2px;
+  }
+
+  .col-9 {
+    background-color: #eeeeee;
+    border: solid #61b1d6 2px;
+    border-left: solid #123b4e 2px;
+  }
+
+  .col-3-text {
+    text-align: center;
+    color: #000;
+  }
+
+  .col-9-text {
+    text-align: center;
+    color: #000;
+  }
+
+  .col-9-kundenbereich {
+    align-content: center;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%; height: 100%}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%; height: 100%}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .row-black_bg {
+      background-color: black;
+  }
+
+/* Link behaviour */
+a:link {
+    color: #000;
+  }
+  
+a:visited {
+    color: #000;
+  }
+  
+a:hover {
+    color: #000;
+  }
+  
+a:active {
+    color: #000;
+  }
+
+/* Menu */
+.menu-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-link:hover {
+  background-color: #c7d8e0;
+  padding: 5px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none; /* Remove bulletpoints */
+  padding: 0; /* Remove padding */
+  font-size: 1.2em;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px;
+}
+
+table, th, tr, td {
+  border: 2px solid #000;
+}
+
